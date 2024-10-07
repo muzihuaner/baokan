@@ -1,0 +1,10 @@
+{
+    "domestic": [
+        { "region": "北京", "name": "北京日报", "url": "https://www.beijingdaily.com.cn" },
+        { "region": "上海", "name": "上海日报", "url": "https://www.shanghaidaily.com" }
+    ],
+    "international": [
+        { "region": "美国", "name": "纽约时报", "url": "https://www.nytimes.com" },
+        { "region": "英国", "name": "泰晤士报", "url": "https://www.thetimes.co.uk" }
+    ]
+}

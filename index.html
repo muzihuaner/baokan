@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>快点电子报刊-在线看报系统-在线读报-全国报刊索引-报刊在线阅读系统</title>
+    <meta name="Keywords" content="快点电子报刊,全国报刊大全,国内报刊大全,国外报刊大全,外国报刊大全,全国报刊索引">
+    <meta name="Description" content="全国报刊大全和国内报刊大全-在线看报系统-在线读报-报纸在线阅读系统，无论国内和国外，所有报纸期刊杂志尽在快点电子报刊">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0-alpha1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">快点电子报刊</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/">首页</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li> -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                热门推荐
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#" id="domesticLink">国内报纸</a></li>
+                                <li><a class="dropdown-item" href="#" id="foreignLink">国外报纸</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="accordion col-sm-4" id="accordionExample">
+                <!-- 国内分类 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingDomestic">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseDomestic" aria-expanded="true" aria-controls="collapseDomestic">
+                            国内
+                        </button>
+                    </h2>
+                    <div id="collapseDomestic" class="accordion-collapse collapse show"
+                        aria-labelledby="headingDomestic" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul class="list-group" id="domesticList">
+                                <!-- 动态加载国内报刊 -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- 国外分类 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingInternational">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseInternational" aria-expanded="false"
+                            aria-controls="collapseInternational">
+                            国外
+                        </button>
+                    </h2>
+                    <div id="collapseInternational" class="accordion-collapse collapse"
+                        aria-labelledby="headingInternational" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul class="list-group" id="internationalList">
+                                <!-- 动态加载国外报刊 -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <iframe id="newsIframe" src="tj-cn.html" class="col-sm-8"></iframe>
+            <div class="r_foot">
+                <div class="msg">
+                    声明：报刊内容（含所附图片）系由网友上传或引用网上百科介绍或引用报刊官网公共介绍信息，如果涉嫌侵权，请与我们联系，我们将按照法律之相关规定及时进行处理。如需转载，请注明来源于bk.quickso.cn。
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0-alpha1/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#domesticLink').click(function (e) {
+                e.preventDefault();
+                $('#newsIframe').attr('src', 'tj-cn.html');
+            });
+
+            $('#foreignLink').click(function (e) {
+                e.preventDefault();
+                $('#newsIframe').attr('src', 'tj-gw.html');
+            });
+        });
+
+
+        fetch('data.json')
+            .then(response => response.json())
+            .then(data => {
+                loadNewspapers(data, 'domestic', 'domesticList');
+                loadNewspapers(data, 'international', 'internationalList');
+            })
+            .catch(error => console.error('Error loading JSON:', error));
+
+        function loadNewspapers(data, category, listId) {
+            const list = document.getElementById(listId);
+            data[category].forEach(paper => {
+                const listItem = document.createElement('li');
+                listItem.className = "list-group-item";
+                listItem.innerText = `${paper.region} - ${paper.name}`;
+                listItem.onclick = () => {
+                    document.getElementById('newsIframe').src = paper.url;
+                };
+                list.appendChild(listItem);
+            });
+        }
+    </script>
+</body>
+
+</html>

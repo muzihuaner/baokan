@@ -3,24 +3,184 @@
         {
             "region": "北京",
             "name": "人民日报",
-            "url": "http://paper.people.com.cn/"
+            "url": "http://paper.people.com.cn/",
+            "description": "中国共产党中央委员会机关报"
         },
         {
             "region": "北京",
             "name": "人民日报海外版",
-            "url": "http://paper.people.com.cn/rmrbhwb/"
+            "url": "http://paper.people.com.cn/rmrbhwb/",
+            "description": "面向海外华人华侨的综合性日报"
+        },
+        {
+            "region": "北京",
+            "name": "光明日报",
+            "url": "http://epaper.gmw.cn/gmrb/",
+            "description": "中国知识分子的精神家园"
+        },
+        {
+            "region": "北京",
+            "name": "经济日报",
+            "url": "http://paper.ce.cn/",
+            "description": "国务院直属的经济类中央级党报"
+        },
+        {
+            "region": "北京",
+            "name": "中国青年报",
+            "url": "http://zqb.cyol.com/",
+            "description": "共青团中央机关报"
+        },
+        {
+            "region": "上海",
+            "name": "解放日报",
+            "url": "https://www.jfdaily.com/",
+            "description": "中共上海市委机关报"
+        },
+        {
+            "region": "上海",
+            "name": "文汇报",
+            "url": "http://dzb.whb.cn/",
+            "description": "上海市重要党报之一"
+        },
+        {
+            "region": "上海",
+            "name": "新民晚报",
+            "url": "https://paper.xinmin.cn/",
+            "description": "上海市民生活服务类报纸"
+        },
+        {
+            "region": "广东",
+            "name": "南方日报",
+            "url": "http://epaper.southcn.com/nfrb/",
+            "description": "中共广东省委机关报"
+        },
+        {
+            "region": "广东",
+            "name": "羊城晚报",
+            "url": "http://ep.ycwb.com/",
+            "description": "广州市主要晚报"
+        },
+        {
+            "region": "浙江",
+            "name": "浙江日报",
+            "url": "http://zjdaily.zjol.com.cn/",
+            "description": "中共浙江省委机关报"
+        },
+        {
+            "region": "浙江",
+            "name": "钱江晚报",
+            "url": "http://qjwb.zjol.com.cn/",
+            "description": "浙江省主要都市报"
+        },
+        {
+            "region": "江苏",
+            "name": "新华日报",
+            "url": "http://xh.xhby.net/",
+            "description": "中共江苏省委机关报"
+        },
+        {
+            "region": "山东",
+            "name": "大众日报",
+            "url": "http://paper.dzwww.com/dzrb/",
+            "description": "中共山东省委机关报"
+        },
+        {
+            "region": "四川",
+            "name": "四川日报",
+            "url": "http://epaper.scdaily.cn/",
+            "description": "中共四川省委机关报"
         }
     ],
     "international": [
         {
             "region": "美国",
-            "name": "美联社",
-            "url": "http://www.ap.org/"
+            "name": "纽约时报",
+            "url": "https://www.nytimes.com/",
+            "description": "美国最具影响力的报纸之一"
+        },
+        {
+            "region": "美国",
+            "name": "华尔街日报",
+            "url": "https://www.wsj.com/",
+            "description": "美国著名财经报纸"
         },
         {
             "region": "美国",
             "name": "洛杉矶时报",
-            "url": "http://www.latimes.com/"
+            "url": "http://www.latimes.com/",
+            "description": "美国西海岸主要报纸"
+        },
+        {
+            "region": "美国",
+            "name": "今日美国",
+            "url": "https://www.usatoday.com/",
+            "description": "美国发行量最大的报纸"
+        },
+        {
+            "region": "英国",
+            "name": "泰晤士报",
+            "url": "https://www.thetimes.co.uk/",
+            "description": "英国历史悠久的权威报纸"
+        },
+        {
+            "region": "英国",
+            "name": "卫报",
+            "url": "https://www.theguardian.com/",
+            "description": "英国主要左翼报纸"
+        },
+        {
+            "region": "英国",
+            "name": "每日电讯报",
+            "url": "http://www.telegraph.co.uk/",
+            "description": "英国保守派报纸"
+        },
+        {
+            "region": "法国",
+            "name": "费加罗报",
+            "url": "http://www.lefigaro.fr/",
+            "description": "法国历史最悠久的日报"
+        },
+        {
+            "region": "法国",
+            "name": "世界报",
+            "url": "http://mondediplo.com/",
+            "description": "法国权威报纸"
+        },
+        {
+            "region": "德国",
+            "name": "世界报",
+            "url": "https://www.welt.de/",
+            "description": "德国主要日报"
+        },
+        {
+            "region": "日本",
+            "name": "朝日新闻",
+            "url": "https://www.asahi.com/",
+            "description": "日本三大报纸之一"
+        },
+        {
+            "region": "日本",
+            "name": "读卖新闻",
+            "url": "https://www.yomiuri.co.jp/",
+            "description": "日本发行量最大的报纸"
+        },
+        {
+            "region": "日本",
+            "name": "日本经济新闻",
+            "url": "http://www.nikkei.co.jp/",
+            "description": "日本主要财经报纸"
+        },
+        {
+            "region": "新加坡",
+            "name": "联合早报",
+            "url": "https://www.zaobao.com/",
+            "description": "新加坡主要中文报纸"
+        },
+        {
+            "region": "新加坡",
+            "name": "海峡时报",
+            "url": "https://www.straitstimes.com/",
+            "description": "新加坡主要英文报纸"
         }
     ]
 }

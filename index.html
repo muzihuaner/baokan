@@ -1,133 +1,406 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>快点电子报刊-在线看报系统-在线读报-全国报刊索引-报刊在线阅读系统</title>
-    <meta name="Keywords" content="快点电子报刊,全国报刊大全,国内报刊大全,国外报刊大全,外国报刊大全,全国报刊索引">
-    <meta name="Description" content="全国报刊大全和国内报刊大全-在线看报系统-在线读报-报纸在线阅读系统，无论国内和国外，所有报纸期刊杂志尽在快点电子报刊">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0-alpha1/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <title>快点电子报刊 - 在线看报系统 | 全国报刊索引</title>
+    <meta name="keywords" content="快点电子报刊,全国报刊大全,国内报刊大全,国外报刊大全,外国报刊大全,全国报刊索引">
+    <meta name="description" content="全国报刊大全和国内报刊大全-在线看报系统-在线读报-报纸在线阅读系统，无论国内和国外，所有报纸期刊杂志尽在快点电子报刊">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#eff6ff',
+                            100: '#dbeafe',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            700: '#1d4ed8',
+                        },
+                        gray: {
+                            50: '#f9fafb',
+                            100: '#f3f4f6',
+                            200: '#e5e7eb',
+                            300: '#d1d5db',
+                            400: '#9ca3af',
+                            500: '#6b7280',
+                            600: '#4b5563',
+                            700: '#374151',
+                            800: '#1f2937',
+                            900: '#111827',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .loading-spinner {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #3498db;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .sidebar-scroll {
+            scrollbar-width: thin;
+            scrollbar-color: #cbd5e1 #f1f5f9;
+        }
+
+        .sidebar-scroll::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .sidebar-scroll::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+
+        .sidebar-scroll::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 3px;
+        }
+
+        .sidebar-scroll::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+    </style>
 </head>
 
-<body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">快点电子报刊</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/">首页</a>
-                        </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li> -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                热门推荐
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#" id="domesticLink">国内报纸</a></li>
-                                <li><a class="dropdown-item" href="#" id="foreignLink">国外报纸</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <div class="row">
-            <div class="accordion col-sm-4" id="accordionExample">
-                <!-- 国内分类 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingDomestic">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseDomestic" aria-expanded="true" aria-controls="collapseDomestic">
-                            国内
-                        </button>
-                    </h2>
-                    <div id="collapseDomestic" class="accordion-collapse collapse show"
-                        aria-labelledby="headingDomestic" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <ul class="list-group" id="domesticList">
-                                <!-- 动态加载国内报刊 -->
-                            </ul>
-                        </div>
+<body class="bg-gray-50 min-h-screen">
+    <!-- 顶部导航栏 -->
+    <nav class="bg-white shadow-sm border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo和标题 -->
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <h1 class="text-xl font-bold text-gray-900">📰 快点电子报刊</h1>
                     </div>
                 </div>
-                <!-- 国外分类 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingInternational">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseInternational" aria-expanded="false"
-                            aria-controls="collapseInternational">
-                            国外
-                        </button>
-                    </h2>
-                    <div id="collapseInternational" class="accordion-collapse collapse"
-                        aria-labelledby="headingInternational" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <ul class="list-group" id="internationalList">
-                                <!-- 动态加载国外报刊 -->
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-            <iframe id="newsIframe" src="tj-cn.html" class="col-sm-8"></iframe>
-            <div class="r_foot">
-                <div class="msg">
-                    声明：报刊内容（含所附图片）系由网友上传或引用网上百科介绍或引用报刊官网公共介绍信息，如果涉嫌侵权，请与我们联系，我们将按照法律之相关规定及时进行处理。如需转载，请注明来源于bk.quickso.cn。
+                <!-- 搜索框 -->
+                <div class="flex-1 max-w-lg mx-8">
+                    <div class="relative">
+                        <input type="text"
+                               id="searchInput"
+                               placeholder="搜索报刊名称..."
+                               class="w-full px-4 py-2 pl-10 pr-4 text-gray-700 bg-gray-100 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+                        <div class="absolute inset-y-0 left-0 flex items-center pl-3">
+                            <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 导航菜单 -->
+                <div class="flex items-center space-x-4">
+                    <button id="domesticBtn" class="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-primary-500 transition-colors">
+                        国内报纸
+                    </button>
+                    <button id="foreignBtn" class="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-primary-500 transition-colors">
+                        国外报纸
+                    </button>
                 </div>
             </div>
         </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0-alpha1/js/bootstrap.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('#domesticLink').click(function (e) {
-                e.preventDefault();
-                $('#newsIframe').attr('src', 'tj-cn.html');
-            });
+    </nav>
 
-            $('#foreignLink').click(function (e) {
-                e.preventDefault();
-                $('#newsIframe').attr('src', 'tj-gw.html');
-            });
+    <!-- 主要内容区域 -->
+    <div class="flex h-screen pt-16">
+        <!-- 侧边栏 -->
+        <div class="w-80 bg-white shadow-lg border-r border-gray-200 flex flex-col">
+            <!-- 分类标签 -->
+            <div class="flex border-b border-gray-200">
+                <button id="domesticTab" class="flex-1 px-4 py-3 text-sm font-medium text-center border-b-2 border-primary-500 text-primary-600 bg-primary-50">
+                    国内报刊
+                </button>
+                <button id="internationalTab" class="flex-1 px-4 py-3 text-sm font-medium text-center border-b-2 border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300">
+                    国外报刊
+                </button>
+            </div>
+
+            <!-- 报刊列表 -->
+            <div class="flex-1 overflow-y-auto sidebar-scroll">
+                <!-- 国内报刊列表 -->
+                <div id="domesticList" class="p-4 space-y-2">
+                    <!-- 动态加载国内报刊 -->
+                </div>
+
+                <!-- 国外报刊列表 -->
+                <div id="internationalList" class="p-4 space-y-2 hidden">
+                    <!-- 动态加载国外报刊 -->
+                </div>
+
+                <!-- 搜索结果列表 -->
+                <div id="searchResults" class="p-4 space-y-2 hidden">
+                    <!-- 搜索结果 -->
+                </div>
+            </div>
+        </div>
+
+        <!-- 内容显示区域 -->
+        <div class="flex-1 flex flex-col bg-white">
+            <!-- 加载状态 -->
+            <div id="loadingIndicator" class="hidden flex items-center justify-center h-full">
+                <div class="text-center">
+                    <div class="loading-spinner mx-auto mb-4"></div>
+                    <p class="text-gray-500">正在加载...</p>
+                </div>
+            </div>
+
+            <!-- iframe容器 -->
+            <iframe id="newsIframe"
+                    src="tj-cn.html"
+                    class="w-full h-full border-0"
+                    onload="hideLoading()">
+            </iframe>
+        </div>
+    </div>
+
+    <!-- 底部声明 -->
+    <div class="fixed bottom-0 right-0 left-80 bg-gray-100 border-t border-gray-200 px-4 py-2 text-xs text-gray-600 z-10">
+        <p class="text-center">
+            声明：报刊内容（含所附图片）系由网友上传或引用网上百科介绍或引用报刊官网公共介绍信息，如果涉嫌侵权，请与我们联系，我们将按照法律之相关规定及时进行处理。如需转载，请注明来源于bk.quickso.cn。
+        </p>
+    </div>
+
+    <script>
+        // 全局变量
+        let allNewspapers = [];
+        let currentCategory = 'domestic';
+
+        // DOM元素
+        const elements = {
+            domesticBtn: document.getElementById('domesticBtn'),
+            foreignBtn: document.getElementById('foreignBtn'),
+            domesticTab: document.getElementById('domesticTab'),
+            internationalTab: document.getElementById('internationalTab'),
+            domesticList: document.getElementById('domesticList'),
+            internationalList: document.getElementById('internationalList'),
+            searchResults: document.getElementById('searchResults'),
+            searchInput: document.getElementById('searchInput'),
+            newsIframe: document.getElementById('newsIframe'),
+            loadingIndicator: document.getElementById('loadingIndicator')
+        };
+
+        // 初始化应用
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeApp();
+            setupEventListeners();
+            loadNewspaperData();
         });
 
+        // 初始化应用
+        function initializeApp() {
+            console.log('快点电子报刊系统初始化...');
+        }
 
-        fetch('data.json')
-            .then(response => response.json())
-            .then(data => {
-                loadNewspapers(data, 'domestic', 'domesticList');
-                loadNewspapers(data, 'international', 'internationalList');
-            })
-            .catch(error => console.error('Error loading JSON:', error));
-
-        function loadNewspapers(data, category, listId) {
-            const list = document.getElementById(listId);
-            data[category].forEach(paper => {
-                const listItem = document.createElement('li');
-                listItem.className = "list-group-item";
-                listItem.innerText = `${paper.region} - ${paper.name}`;
-                listItem.onclick = () => {
-                    document.getElementById('newsIframe').src = paper.url;
-                };
-                list.appendChild(listItem);
+        // 设置事件监听器
+        function setupEventListeners() {
+            // 顶部导航按钮
+            elements.domesticBtn.addEventListener('click', () => {
+                showLoading();
+                elements.newsIframe.src = 'tj-cn.html';
             });
+
+            elements.foreignBtn.addEventListener('click', () => {
+                showLoading();
+                elements.newsIframe.src = 'tj-foreign.html';
+            });
+
+            // 侧边栏标签切换
+            elements.domesticTab.addEventListener('click', () => switchCategory('domestic'));
+            elements.internationalTab.addEventListener('click', () => switchCategory('international'));
+
+            // 搜索功能
+            elements.searchInput.addEventListener('input', handleSearch);
+            elements.searchInput.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    handleSearch();
+                }
+            });
+        }
+
+        // 加载报刊数据
+        async function loadNewspaperData() {
+            try {
+                const response = await fetch('data.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const data = await response.json();
+                allNewspapers = data;
+                renderNewspapers(data.domestic, 'domesticList');
+                renderNewspapers(data.international, 'internationalList');
+                console.log('报刊数据加载完成');
+            } catch (error) {
+                console.error('加载报刊数据失败:', error);
+                showError('加载数据失败，请刷新页面重试');
+            }
+        }
+
+        // 渲染报刊列表
+        function renderNewspapers(newspapers, containerId) {
+            const container = document.getElementById(containerId);
+            container.innerHTML = '';
+
+            if (!newspapers || newspapers.length === 0) {
+                container.innerHTML = '<p class="text-gray-500 text-center py-4">暂无数据</p>';
+                return;
+            }
+
+            newspapers.forEach(paper => {
+                const paperElement = createPaperElement(paper);
+                container.appendChild(paperElement);
+            });
+        }
+
+        // 创建报刊元素
+        function createPaperElement(paper) {
+            const div = document.createElement('div');
+            div.className = 'p-3 bg-gray-50 rounded-lg border border-gray-200 hover:bg-primary-50 hover:border-primary-300 cursor-pointer transition-all duration-200 group';
+
+            div.innerHTML = `
+                <div class="flex items-center justify-between">
+                    <div class="flex-1">
+                        <h3 class="font-medium text-gray-900 group-hover:text-primary-700 text-sm">${paper.name}</h3>
+                        <p class="text-xs text-gray-500 mt-1">${paper.region}</p>
+                    </div>
+                    <div class="ml-2">
+                        <svg class="w-4 h-4 text-gray-400 group-hover:text-primary-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </div>
+                </div>
+            `;
+
+            div.addEventListener('click', () => {
+                showLoading();
+                elements.newsIframe.src = paper.url;
+                // 添加选中状态
+                document.querySelectorAll('.paper-selected').forEach(el => el.classList.remove('paper-selected'));
+                div.classList.add('paper-selected', 'bg-primary-100', 'border-primary-400');
+            });
+
+            return div;
+        }
+
+        // 切换分类
+        function switchCategory(category) {
+            currentCategory = category;
+
+            // 更新标签样式
+            if (category === 'domestic') {
+                elements.domesticTab.className = 'flex-1 px-4 py-3 text-sm font-medium text-center border-b-2 border-primary-500 text-primary-600 bg-primary-50';
+                elements.internationalTab.className = 'flex-1 px-4 py-3 text-sm font-medium text-center border-b-2 border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300';
+                elements.domesticList.classList.remove('hidden');
+                elements.internationalList.classList.add('hidden');
+            } else {
+                elements.internationalTab.className = 'flex-1 px-4 py-3 text-sm font-medium text-center border-b-2 border-primary-500 text-primary-600 bg-primary-50';
+                elements.domesticTab.className = 'flex-1 px-4 py-3 text-sm font-medium text-center border-b-2 border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300';
+                elements.internationalList.classList.remove('hidden');
+                elements.domesticList.classList.add('hidden');
+            }
+
+            // 隐藏搜索结果
+            elements.searchResults.classList.add('hidden');
+            elements.searchInput.value = '';
+        }
+
+        // 搜索处理
+        function handleSearch() {
+            const query = elements.searchInput.value.trim().toLowerCase();
+
+            if (!query) {
+                // 如果搜索为空，显示当前分类
+                elements.searchResults.classList.add('hidden');
+                if (currentCategory === 'domestic') {
+                    elements.domesticList.classList.remove('hidden');
+                    elements.internationalList.classList.add('hidden');
+                } else {
+                    elements.internationalList.classList.remove('hidden');
+                    elements.domesticList.classList.add('hidden');
+                }
+                return;
+            }
+
+            // 搜索所有报刊
+            const searchResults = [];
+            if (allNewspapers.domestic) {
+                searchResults.push(...allNewspapers.domestic.filter(paper =>
+                    paper.name.toLowerCase().includes(query) ||
+                    paper.region.toLowerCase().includes(query)
+                ));
+            }
+            if (allNewspapers.international) {
+                searchResults.push(...allNewspapers.international.filter(paper =>
+                    paper.name.toLowerCase().includes(query) ||
+                    paper.region.toLowerCase().includes(query)
+                ));
+            }
+
+            // 显示搜索结果
+            elements.domesticList.classList.add('hidden');
+            elements.internationalList.classList.add('hidden');
+            elements.searchResults.classList.remove('hidden');
+
+            renderSearchResults(searchResults, query);
+        }
+
+        // 渲染搜索结果
+        function renderSearchResults(results, query) {
+            elements.searchResults.innerHTML = '';
+
+            if (results.length === 0) {
+                elements.searchResults.innerHTML = `
+                    <div class="text-center py-8">
+                        <svg class="w-12 h-12 text-gray-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 12h6m-6-4h6m2 5.291A7.962 7.962 0 0112 15c-2.34 0-4.47-.881-6.08-2.33"></path>
+                        </svg>
+                        <p class="text-gray-500">未找到包含 "${query}" 的报刊</p>
+                    </div>
+                `;
+                return;
+            }
+
+            // 添加搜索结果标题
+            const header = document.createElement('div');
+            header.className = 'mb-4 pb-2 border-b border-gray-200';
+            header.innerHTML = `<h3 class="text-sm font-medium text-gray-700">搜索结果 (${results.length})</h3>`;
+            elements.searchResults.appendChild(header);
+
+            // 渲染结果
+            results.forEach(paper => {
+                const paperElement = createPaperElement(paper);
+                elements.searchResults.appendChild(paperElement);
+            });
+        }
+
+        // 显示加载状态
+        function showLoading() {
+            elements.loadingIndicator.classList.remove('hidden');
+        }
+
+        // 隐藏加载状态
+        function hideLoading() {
+            elements.loadingIndicator.classList.add('hidden');
+        }
+
+        // 显示错误信息
+        function showError(message) {
+            console.error(message);
+            // 可以在这里添加更友好的错误提示UI
         }
     </script>
 </body>

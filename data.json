@@ -5,11 +5,11 @@
         "papers": [
           {
             "name": "人民日报",
-            "url": "https://paper.people.com.cn/"
+            "url": "http://paper.people.com.cn/"
           },
           {
             "name": "中国妇女报",
-            "url": "https://paper.cnwomen.com.cn/"
+            "url": "http://paper.cnwomen.com.cn/"
           },
           {
             "name": "中国文化报",
@@ -17,39 +17,39 @@
           },
           {
             "name": "北京青年报",
-            "url": "https://epaper.ynet.com/"
+            "url": "http://epaper.ynet.com/"
           },
           {
             "name": "中国医药报",
-            "url": "https://bk.cnpharm.com/"
+            "url": "http://bk.cnpharm.com/"
           },
           {
             "name": "光明日报",
-            "url": "https://epaper.gmw.cn/gmrb/"
+            "url": "http://epaper.gmw.cn/gmrb/"
           },
           {
             "name": "中华读书报",
-            "url": "https://epaper.gmw.cn/zhdsb/"
+            "url": "http://epaper.gmw.cn/zhdsb/"
           },
           {
             "name": "经济日报",
-            "url": "https://paper.ce.cn/"
+            "url": "http://paper.ce.cn/"
           },
           {
             "name": "中国教育报",
-            "url": "https://paper.jyb.cn/zgjyb/"
+            "url": "http://paper.jyb.cn/zgjyb/"
           },
           {
             "name": "中国青年报",
-            "url": "https://zqb.cyol.com/"
+            "url": "http://zqb.cyol.com/"
           },
           {
             "name": "中国旅游报",
-            "url": "https://www.ctnews.com.cn/paper/"
+            "url": "http://www.ctnews.com.cn/paper/"
           },
           {
             "name": "中国航天报",
-            "url": "https://szb.htgjjl.com/"
+            "url": "http://szb.htgjjl.com/"
           },
           {
             "name": "中国电视报",
@@ -61,7 +61,7 @@
           },
           {
             "name": "证券日报",
-            "url": "https://epaper.zqrb.cn/"
+            "url": "http://epaper.zqrb.cn/"
           },
           {
             "name": "西部时报",
@@ -69,15 +69,15 @@
           },
           {
             "name": "中国农村信用合作报",
-            "url": "https://ep.chinanshw.cn/"
+            "url": "http://ep.chinanshw.cn/"
           },
           {
             "name": "北京中医院院报",
-            "url": "https://yuanbao.bjzhongyi.com/"
+            "url": "http://yuanbao.bjzhongyi.com/"
           },
           {
             "name": "大兴报",
-            "url": "https://dxrmtdxb.daxing.net/"
+            "url": "http://dxrmtdxb.daxing.net/"
           }
         ]
       },
@@ -90,15 +90,15 @@
           },
           {
             "name": "新闻晨报",
-            "url": "https://ep.shxwcb.com/"
+            "url": "http://ep.shxwcb.com/"
           },
           {
             "name": "青年报",
-            "url": "https://www.why.com.cn/"
+            "url": "http://www.why.com.cn/"
           },
           {
             "name": "文汇报",
-            "url": "https://dzb.whb.cn/"
+            "url": "http://dzb.whb.cn/"
           },
           {
             "name": "新民晚报",
@@ -106,15 +106,15 @@
           },
           {
             "name": "国际金融报",
-            "url": "https://paper.people.com.cn/gjjrb/"
+            "url": "http://paper.people.com.cn/gjjrb/"
           },
           {
             "name": "上海证券报",
-            "url": "https://paper.cnstock.com/"
+            "url": "http://paper.cnstock.com/"
           },
           {
             "name": "文学报",
-            "url": "https://wxb.whb.cn/"
+            "url": "http://wxb.whb.cn/"
           },
           {
             "name": "第一财经日报",
@@ -126,11 +126,11 @@
           },
           {
             "name": "城市导报",
-            "url": "https://citynews.eastday.com/"
+            "url": "http://citynews.eastday.com/"
           },
           {
             "name": "上海汽车报",
-            "url": "https://epaper.shautonews.com/"
+            "url": "http://epaper.shautonews.com/"
           },
           {
             "name": "东方体育日报",
@@ -146,19 +146,19 @@
           },
           {
             "name": "虹口报",
-            "url": "https://hongkouweekly.xinmin.cn/"
+            "url": "http://hongkouweekly.xinmin.cn/"
           },
           {
             "name": "崇明报",
-            "url": "https://cmb.shcm.gov.cn/"
+            "url": "http://cmb.shcm.gov.cn/"
           },
           {
             "name": "徐汇报",
-            "url": "https://www.xuhuibao.com/"
+            "url": "http://www.xuhuibao.com/"
           },
           {
             "name": "奉贤报",
-            "url": "https://www.fengxianbao.net/"
+            "url": "http://www.fengxianbao.net/"
           },
           {
             "name": "上海社会科学院院报",
@@ -171,23 +171,23 @@
         "papers": [
           {
             "name": "天津日报",
-            "url": "https://epaper.tianjinwe.com/tjrb/"
+            "url": "http://epaper.tianjinwe.com/tjrb/"
           },
           {
             "name": "今晚报",
-            "url": "https://jwb.enorth.com.cn/"
+            "url": "http://jwb.enorth.com.cn/"
           },
           {
             "name": "每日新报",
-            "url": "https://epaper.tianjinwe.com/mrxb/"
+            "url": "http://epaper.tianjinwe.com/mrxb/"
           },
           {
             "name": "滨城时报",
-            "url": "https://www.tjbh.com/"
+            "url": "http://www.tjbh.com/"
           },
           {
             "name": "中老年时报",
-            "url": "https://jinwanbaoepaper.enorth.com.cn/"
+            "url": "http://jinwanbaoepaper.enorth.com.cn/"
           }
         ]
       },
@@ -208,7 +208,7 @@
           },
           {
             "name": "三峡都市报",
-            "url": "https://dpaper.sxcm.net/"
+            "url": "http://dpaper.sxcm.net/"
           },
           {
             "name": "梁平日报",
@@ -216,7 +216,7 @@
           },
           {
             "name": "万州时报",
-            "url": "https://dpaper.sxcm.net/wzsb/"
+            "url": "http://dpaper.sxcm.net/wzsb/"
           },
           {
             "name": "渝西都市报",
@@ -224,15 +224,15 @@
           },
           {
             "name": "南川日报",
-            "url": "https://ncrb.cqncnews.com/"
+            "url": "http://ncrb.cqncnews.com/"
           },
           {
             "name": "合川日报",
-            "url": "https://szb.jrhcw.com/"
+            "url": "http://szb.jrhcw.com/"
           },
           {
             "name": "江津日报",
-            "url": "https://epaper.cqjjnet.com/"
+            "url": "http://epaper.cqjjnet.com/"
           },
           {
             "name": "开州日报",
@@ -240,15 +240,15 @@
           },
           {
             "name": "忠州日报",
-            "url": "https://epaper.zzxw.net/"
+            "url": "http://epaper.zzxw.net/"
           },
           {
             "name": "武隆日报",
-            "url": "https://wlrb.cqwulong.cn/"
+            "url": "http://wlrb.cqwulong.cn/"
           },
           {
             "name": "丰都日报",
-            "url": "https://www.cqfd.cn/allMedia/"
+            "url": "http://www.cqfd.cn/allMedia/"
           },
           {
             "name": "大足日报",
@@ -264,7 +264,7 @@
           },
           {
             "name": "万盛日报",
-            "url": "https://wsb.cqwsnews.net/"
+            "url": "http://wsb.cqwsnews.net/"
           }
         ]
       },
@@ -273,31 +273,31 @@
         "papers": [
           {
             "name": "河北日报",
-            "url": "https://hbrb.hebnews.cn/"
+            "url": "http://hbrb.hebnews.cn/"
           },
           {
             "name": "燕赵都市报",
-            "url": "https://yzdsb.hebnews.cn/"
+            "url": "http://yzdsb.hebnews.cn/"
           },
           {
             "name": "河北工人报",
-            "url": "https://www.hbgrb.net/epaper/"
+            "url": "http://www.hbgrb.net/epaper/"
           },
           {
             "name": "河北经济日报",
-            "url": "https://www.hbjjrb.com/"
+            "url": "http://www.hbjjrb.com/"
           },
           {
             "name": "石家庄日报",
-            "url": "https://sjzrb.sjzdaily.com.cn/"
+            "url": "http://sjzrb.sjzdaily.com.cn/"
           },
           {
             "name": "燕赵晚报",
-            "url": "https://yzwb.sjzdaily.com.cn/"
+            "url": "http://yzwb.sjzdaily.com.cn/"
           },
           {
             "name": "燕赵老年报",
-            "url": "https://yzlnb.sjzdaily.com.cn"
+            "url": "http://yzlnb.sjzdaily.com.cn"
           },
           {
             "name": "承德日报",
@@ -305,35 +305,35 @@
           },
           {
             "name": "张家口日报",
-            "url": "https://szbk.zjknews.com/"
+            "url": "http://szbk.zjknews.com/"
           },
           {
             "name": "邢台日报",
-            "url": "https://www.xtrb.cn/epaper/xtrb/pc/col/"
+            "url": "http://www.xtrb.cn/epaper/xtrb/pc/col/"
           },
           {
             "name": "沧州日报",
-            "url": "https://czrb.bohaitoday.com/"
+            "url": "http://czrb.bohaitoday.com/"
           },
           {
             "name": "邯郸日报",
-            "url": "https://szb.handannews.com.cn/"
+            "url": "http://szb.handannews.com.cn/"
           },
           {
             "name": "承德晚报",
-            "url": "https://paper.hehechengde.cn/"
+            "url": "http://paper.hehechengde.cn/"
           },
           {
             "name": "廊坊日报",
-            "url": "https://www.lfcmw.com/"
+            "url": "http://www.lfcmw.com/"
           },
           {
             "name": "张家口晚报",
-            "url": "https://www.zjknews.com/"
+            "url": "http://www.zjknews.com/"
           },
           {
             "name": "衡水日报",
-            "url": "https://www.hsrb.com.cn/"
+            "url": "http://www.hsrb.com.cn/"
           },
           {
             "name": "定州日报",
@@ -341,11 +341,11 @@
           },
           {
             "name": "保定晚报",
-            "url": "https://www.bdall.com/"
+            "url": "http://www.bdall.com/"
           },
           {
             "name": "保定日报",
-            "url": "https://www.bdall.com/"
+            "url": "http://www.bdall.com/"
           }
         ]
       },
@@ -354,71 +354,71 @@
         "papers": [
           {
             "name": "太原日报",
-            "url": "https://epaper.tyrbw.com/tyrb/"
+            "url": "http://epaper.tyrbw.com/tyrb/"
           },
           {
             "name": "山西日报",
-            "url": "https://epaper.sxrb.com/"
+            "url": "http://epaper.sxrb.com/"
           },
           {
             "name": "山西农民报",
-            "url": "https://epaper.sxrb.com/index_sxnmb.shtml"
+            "url": "http://epaper.sxrb.com/index_sxnmb.shtml"
           },
           {
             "name": "山西经济日报",
-            "url": "https://epaper.sxrb.com/index_sxjjrb.shtml"
+            "url": "http://epaper.sxrb.com/index_sxjjrb.shtml"
           },
           {
             "name": "大同日报",
-            "url": "https://epaper.dtnews.cn/dtrb/"
+            "url": "http://epaper.dtnews.cn/dtrb/"
           },
           {
             "name": "晋中日报",
-            "url": "https://paper.jzxww.com.cn/jzrb/"
+            "url": "http://paper.jzxww.com.cn/jzrb/"
           },
           {
             "name": "朔州日报",
-            "url": "https://www.shuozhounews.cn/"
+            "url": "http://www.shuozhounews.cn/"
           },
           {
             "name": "吕梁日报",
-            "url": "https://www.sxllnews.cn/"
+            "url": "http://www.sxllnews.cn/"
           },
           {
             "name": "吕梁晚报",
-            "url": "https://www.sxllnews.cn/"
+            "url": "http://www.sxllnews.cn/"
           },
           {
             "name": "阳泉日报",
-            "url": "https://epaper.yqnews.com.cn/"
+            "url": "http://epaper.yqnews.com.cn/"
           },
           {
             "name": "阳泉晚报",
-            "url": "https://epaper.yqnews.com.cn/yqwb/"
+            "url": "http://epaper.yqnews.com.cn/yqwb/"
           },
           {
             "name": "长治日报",
-            "url": "https://epaper.ichangzhi.com.cn/czrb/"
+            "url": "http://epaper.ichangzhi.com.cn/czrb/"
           },
           {
             "name": "上党晚报",
-            "url": "https://epaper.ichangzhi.com.cn/sdwb/"
+            "url": "http://epaper.ichangzhi.com.cn/sdwb/"
           },
           {
             "name": "运城日报",
-            "url": "https://epaper.sxycrb.com/rbpaper/"
+            "url": "http://epaper.sxycrb.com/rbpaper/"
           },
           {
             "name": "忻州日报",
-            "url": "https://szb.xzrbw.com/xzrbpaper/"
+            "url": "http://szb.xzrbw.com/xzrbpaper/"
           },
           {
             "name": "忻州晚报",
-            "url": "https://szb.xzrbw.com/xzwbpaper/"
+            "url": "http://szb.xzrbw.com/xzwbpaper/"
           },
           {
             "name": "临汾日报",
-            "url": "https://paper.lfxww.com/"
+            "url": "http://paper.lfxww.com/"
           }
         ]
       },
@@ -427,7 +427,7 @@
         "papers": [
           {
             "name": "内蒙古日报",
-            "url": "https://szb.nmgnews.com.cn/nmgrb/"
+            "url": "http://szb.nmgnews.com.cn/nmgrb/"
           },
           {
             "name": "锡林郭勒日报",
@@ -435,11 +435,11 @@
           },
           {
             "name": "内蒙古商报",
-            "url": "https://szb.nmgsb.com.cn/"
+            "url": "http://szb.nmgsb.com.cn/"
           },
           {
             "name": "鄂尔多斯日报",
-            "url": "https://www.ordosnews.com/"
+            "url": "http://www.ordosnews.com/"
           },
           {
             "name": "乌海日报",
@@ -447,7 +447,7 @@
           },
           {
             "name": "通辽日报",
-            "url": "https://www.tongliaowang.com/"
+            "url": "http://www.tongliaowang.com/"
           },
           {
             "name": "呼和浩特日报",
@@ -459,23 +459,23 @@
           },
           {
             "name": "呼伦贝尔日报",
-            "url": "https://szb.hlbrdaily.com.cn:8888/"
+            "url": "http://szb.hlbrdaily.com.cn:8888/"
           },
           {
             "name": "巴彦淖尔日报",
-            "url": "https://www.bynrnews.com/"
+            "url": "http://www.bynrnews.com/"
           },
           {
             "name": "乌兰察布日报",
-            "url": "https://60.31.144.235:29280/paper/"
+            "url": "http://60.31.144.235:29280/paper/"
           },
           {
             "name": "兴安日报",
-            "url": "https://www.xingandaily.cn/"
+            "url": "http://www.xingandaily.cn/"
           },
           {
             "name": "阿拉善日报",
-            "url": "https://cb.alsnews.cn:29280/"
+            "url": "http://cb.alsnews.cn:29280/"
           }
         ]
       },
@@ -484,23 +484,23 @@
         "papers": [
           {
             "name": "辽宁日报",
-            "url": "https://epaper.lnd.com.cn/"
+            "url": "http://epaper.lnd.com.cn/"
           },
           {
             "name": "辽沈晚报",
-            "url": "https://epaper.lnd.com.cn/"
+            "url": "http://epaper.lnd.com.cn/"
           },
           {
             "name": "大连日报",
-            "url": "https://szb.dlxww.com/"
+            "url": "http://szb.dlxww.com/"
           },
           {
             "name": "辽宁法治报",
-            "url": "https://www.lnfz.cn/"
+            "url": "http://www.lnfz.cn/"
           },
           {
             "name": "营口日报",
-            "url": "https://www.ykd.com.cn/"
+            "url": "http://www.ykd.com.cn/"
           },
           {
             "name": "沈阳日报",
@@ -508,19 +508,19 @@
           },
           {
             "name": "葫芦岛日报",
-            "url": "https://www.hldnews.com/"
+            "url": "http://www.hldnews.com/"
           },
           {
             "name": "鞍钢日报",
-            "url": "https://www.newsansteel.cn/"
+            "url": "http://www.newsansteel.cn/"
           },
           {
             "name": "阜新日报",
-            "url": "https://www.fxrbs.cn/"
+            "url": "http://www.fxrbs.cn/"
           },
           {
             "name": "抚顺日报",
-            "url": "https://www.0245.net.cn/"
+            "url": "http://www.0245.net.cn/"
           }
         ]
       },
@@ -529,55 +529,55 @@
         "papers": [
           {
             "name": "吉林日报",
-            "url": "https://jlrbszb.dajilin.com/"
+            "url": "http://jlrbszb.dajilin.com/"
           },
           {
             "name": "北方法制报",
-            "url": "https://www.bffzb.com/"
+            "url": "http://www.bffzb.com/"
           },
           {
             "name": "吉林大学报",
-            "url": "https://jdb.cuepa.cn/"
+            "url": "http://jdb.cuepa.cn/"
           },
           {
             "name": "城市晚报",
-            "url": "https://www.cswbszb.com/cswb/"
+            "url": "http://www.cswbszb.com/cswb/"
           },
           {
             "name": "吉林农村报",
-            "url": "https://www.jlncb.cn/jlncb/pc/paper/layout/"
+            "url": "http://www.jlncb.cn/jlncb/pc/paper/layout/"
           },
           {
             "name": "延边日报",
-            "url": "https://ipaper.ybrbnews.cn/"
+            "url": "http://ipaper.ybrbnews.cn/"
           },
           {
             "name": "长春日报",
-            "url": "https://epaper.changchunews.com/ccrb/"
+            "url": "http://epaper.changchunews.com/ccrb/"
           },
           {
             "name": "白城日报",
-            "url": "https://www.dajilin.com/"
+            "url": "http://www.dajilin.com/"
           },
           {
             "name": "通化日报",
-            "url": "https://www.thrbs.com/"
+            "url": "http://www.thrbs.com/"
           },
           {
             "name": "四平日报",
-            "url": "https://www.spxww.com/"
+            "url": "http://www.spxww.com/"
           },
           {
             "name": "长春晚报",
-            "url": "https://epaper.changchunews.com/ccwb/"
+            "url": "http://epaper.changchunews.com/ccwb/"
           },
           {
             "name": "长白山日报",
-            "url": "https://szb.cbsxw.cn/"
+            "url": "http://szb.cbsxw.cn/"
           },
           {
             "name": "松原日报",
-            "url": "https://szb.syxww.cn/"
+            "url": "http://szb.syxww.cn/"
           }
         ]
       },
@@ -586,23 +586,23 @@
         "papers": [
           {
             "name": "黑龙江日报",
-            "url": "https://epaper.hljnews.cn/"
+            "url": "http://epaper.hljnews.cn/"
           },
           {
             "name": "哈尔滨日报",
-            "url": "https://hb.my399.com/"
+            "url": "http://hb.my399.com/"
           },
           {
             "name": "新晚报",
-            "url": "https://xwb.joyhua.cn/"
+            "url": "http://xwb.joyhua.cn/"
           },
           {
             "name": "七台河日报",
-            "url": "https://www2.qthnews.org.cn/"
+            "url": "http://www2.qthnews.org.cn/"
           },
           {
             "name": "大庆日报",
-            "url": "https://www.dqdaily.com/"
+            "url": "http://www.dqdaily.com/"
           },
           {
             "name": "大庆晚报",
@@ -610,11 +610,11 @@
           },
           {
             "name": "大兴安岭日报",
-            "url": "https://paper.dxalrb.org.cn/"
+            "url": "http://paper.dxalrb.org.cn/"
           },
           {
             "name": "今日绥芬河",
-            "url": "https://hljtv.ysneo.com/"
+            "url": "http://hljtv.ysneo.com/"
           },
           {
             "name": "鹤城晚报",
@@ -634,7 +634,7 @@
           },
           {
             "name": "伊春日报",
-            "url": "https://60.11.44.37/"
+            "url": "http://60.11.44.37/"
           },
           {
             "name": "黑河日报",
@@ -647,63 +647,63 @@
         "papers": [
           {
             "name": "新华日报",
-            "url": "https://xh.xhby.net/"
+            "url": "http://xh.xhby.net/"
           },
           {
             "name": "扬州日报",
-            "url": "https://www.yzrb.com/"
+            "url": "http://www.yzrb.com/"
           },
           {
             "name": "南京日报",
-            "url": "https://njrb.njdaily.cn/"
+            "url": "http://njrb.njdaily.cn/"
           },
           {
             "name": "淮安日报",
-            "url": "https://szb.hynews.net/"
+            "url": "http://szb.hynews.net/"
           },
           {
             "name": "镇江日报",
-            "url": "https://szb.jsw.com.cn/ZJRB/"
+            "url": "http://szb.jsw.com.cn/ZJRB/"
           },
           {
             "name": "宿迁日报",
-            "url": "https://epaper.sqdaily.com/"
+            "url": "http://epaper.sqdaily.com/"
           },
           {
             "name": "无锡日报",
-            "url": "https://szb.wxrb.com/"
+            "url": "http://szb.wxrb.com/"
           },
           {
             "name": "江南晚报",
-            "url": "https://szb.wxrb.com/jnwb/"
+            "url": "http://szb.wxrb.com/jnwb/"
           },
           {
             "name": "南通日报",
-            "url": "https://epaper.ntrb.com.cn/"
+            "url": "http://epaper.ntrb.com.cn/"
           },
           {
             "name": "彭城晚报",
-            "url": "https://epaper.cnxz.com.cn/pcwb/"
+            "url": "http://epaper.cnxz.com.cn/pcwb/"
           },
           {
             "name": "高邮日报",
-            "url": "https://epaper.gytoday.cn/"
+            "url": "http://epaper.gytoday.cn/"
           },
           {
             "name": "苏州日报",
-            "url": "https://www.subaonet.com/"
+            "url": "http://www.subaonet.com/"
           },
           {
             "name": "现代家庭报",
-            "url": "https://xdjtb.njdaily.cn/"
+            "url": "http://xdjtb.njdaily.cn/"
           },
           {
             "name": "江南时报",
-            "url": "https://jnsb.xhby.net/"
+            "url": "http://jnsb.xhby.net/"
           },
           {
             "name": "徐州日报",
-            "url": "https://epaper.cnxz.com.cn/xzrb/"
+            "url": "http://epaper.cnxz.com.cn/xzrb/"
           },
           {
             "name": "常州日报",
@@ -715,7 +715,7 @@
           },
           {
             "name": "溧阳日报",
-            "url": "https://lysb.yunpaper.cn/"
+            "url": "http://lysb.yunpaper.cn/"
           },
           {
             "name": "盐城晚报",
@@ -723,7 +723,7 @@
           },
           {
             "name": "泰州日报",
-            "url": "https://www.tznews.cn/"
+            "url": "http://www.tznews.cn/"
           }
         ]
       },
@@ -732,47 +732,47 @@
         "papers": [
           {
             "name": "浙江日报",
-            "url": "https://zjdaily.zjol.com.cn/"
+            "url": "http://zjdaily.zjol.com.cn/"
           },
           {
             "name": "钱江晚报",
-            "url": "https://qjwb.zjol.com.cn/"
+            "url": "http://qjwb.zjol.com.cn/"
           },
           {
             "name": "杭州日报",
-            "url": "https://hzdaily.hangzhou.com.cn/hzrb"
+            "url": "http://hzdaily.hangzhou.com.cn/hzrb"
           },
           {
             "name": "绍兴日报",
-            "url": "https://www.shaoxing.com.cn/"
+            "url": "http://www.shaoxing.com.cn/"
           },
           {
             "name": "台州日报",
-            "url": "https://paper.taizhou.com.cn/"
+            "url": "http://paper.taizhou.com.cn/"
           },
           {
             "name": "宁波日报",
-            "url": "https://daily.cnnb.com.cn/nbrb/"
+            "url": "http://daily.cnnb.com.cn/nbrb/"
           },
           {
             "name": "嘉兴日报",
-            "url": "https://jxrb.cnjxol.com/"
+            "url": "http://jxrb.cnjxol.com/"
           },
           {
             "name": "上虞日报",
-            "url": "https://www.xepaper.com/shangyu/"
+            "url": "http://www.xepaper.com/shangyu/"
           },
           {
             "name": "丽水日报",
-            "url": "https://paper.lsnews.com.cn/lsrb/"
+            "url": "http://paper.lsnews.com.cn/lsrb/"
           },
           {
             "name": "温州晚报",
-            "url": "https://www.wzbyjt.com/"
+            "url": "http://www.wzbyjt.com/"
           },
           {
             "name": "金华日报",
-            "url": "https://www.jhnews.com.cn/"
+            "url": "http://www.jhnews.com.cn/"
           },
           {
             "name": "浙江体坛报",
@@ -780,23 +780,23 @@
           },
           {
             "name": "今日千岛湖",
-            "url": "https://paper.qdhnews.com.cn/"
+            "url": "http://paper.qdhnews.com.cn/"
           },
           {
             "name": "衢州日报",
-            "url": "https://qzrb.qz828.com/"
+            "url": "http://qzrb.qz828.com/"
           },
           {
             "name": "慈溪日报",
-            "url": "https://epaper.cxnews.cn/"
+            "url": "http://epaper.cxnews.cn/"
           },
           {
             "name": "衢州晚报",
-            "url": "https://qzwb.qz828.com/"
+            "url": "http://qzwb.qz828.com/"
           },
           {
             "name": "余姚日报",
-            "url": "https://yynews.cnnb.com.cn/"
+            "url": "http://yynews.cnnb.com.cn/"
           }
         ]
       },
@@ -805,7 +805,7 @@
         "papers": [
           {
             "name": "池州日报",
-            "url": "https://www.chiznews.com/"
+            "url": "http://www.chiznews.com/"
           },
           {
             "name": "安徽日报",
@@ -813,39 +813,39 @@
           },
           {
             "name": "芜湖日报",
-            "url": "https://www.wuhunews.cn/"
+            "url": "http://www.wuhunews.cn/"
           },
           {
             "name": "淮北日报",
-            "url": "https://epaper.hbnews.net/"
+            "url": "http://epaper.hbnews.net/"
           },
           {
             "name": "蚌埠日报",
-            "url": "https://www.bbnews.cn/"
+            "url": "http://www.bbnews.cn/"
           },
           {
             "name": "安徽商报",
-            "url": "https://paper.wiseah.com/"
+            "url": "http://paper.wiseah.com/"
           },
           {
             "name": "合肥日报",
-            "url": "https://www.hf365.com/"
+            "url": "http://www.hf365.com/"
           },
           {
             "name": "滁州日报",
-            "url": "https://szbk.chuzhou.cn/czrb/"
+            "url": "http://szbk.chuzhou.cn/czrb/"
           },
           {
             "name": "马鞍山日报",
-            "url": "https://epaper.wjol.net.cn/masrb/"
+            "url": "http://epaper.wjol.net.cn/masrb/"
           },
           {
             "name": "黄山日报",
-            "url": "https://www.hsdaily.cn/"
+            "url": "http://www.hsdaily.cn/"
           },
           {
             "name": "安庆日报",
-            "url": "https://www.aqnews.com.cn/"
+            "url": "http://www.aqnews.com.cn/"
           },
           {
             "name": "阜阳日报",
@@ -853,7 +853,7 @@
           },
           {
             "name": "颍州晚报",
-            "url": "https://test.fynews.net/"
+            "url": "http://test.fynews.net/"
           },
           {
             "name": "淮南日报",
@@ -865,15 +865,15 @@
           },
           {
             "name": "铜陵日报",
-            "url": "https://szb.tlnews.cn/"
+            "url": "http://szb.tlnews.cn/"
           },
           {
             "name": "皖西日报",
-            "url": "https://wxrb.luaninfo.com/"
+            "url": "http://wxrb.luaninfo.com/"
           },
           {
             "name": "亳州晚报",
-            "url": "https://szb.bozhou.cn/"
+            "url": "http://szb.bozhou.cn/"
           }
         ]
       },
@@ -890,11 +890,11 @@
           },
           {
             "name": "福州日报",
-            "url": "https://mag.fznews.com.cn/"
+            "url": "http://mag.fznews.com.cn/"
           },
           {
             "name": "福州晚报",
-            "url": "https://mag.fznews.com.cn/"
+            "url": "http://mag.fznews.com.cn/"
           },
           {
             "name": "湄洲日报",
@@ -902,11 +902,11 @@
           },
           {
             "name": "闽南日报",
-            "url": "https://zzxww.com/"
+            "url": "http://zzxww.com/"
           },
           {
             "name": "闽西日报",
-            "url": "https://www.mxrb.cn/dzb/mxrb/"
+            "url": "http://www.mxrb.cn/dzb/mxrb/"
           },
           {
             "name": "闽北日报",
@@ -914,7 +914,7 @@
           },
           {
             "name": "石狮日报",
-            "url": "https://epaper.ssrb.com.cn/"
+            "url": "http://epaper.ssrb.com.cn/"
           },
           {
             "name": "厦门日报",
@@ -926,7 +926,7 @@
           },
           {
             "name": "海峡导报",
-            "url": "https://epaper.taihainet.com/"
+            "url": "http://epaper.taihainet.com/"
           },
           {
             "name": "泉州晚报",
@@ -934,23 +934,23 @@
           },
           {
             "name": "海西晨报",
-            "url": "https://www.sunnews.cn/"
+            "url": "http://www.sunnews.cn/"
           },
           {
             "name": "三明日报",
-            "url": "https://smrb.smnet.com.cn/"
+            "url": "http://smrb.smnet.com.cn/"
           },
           {
             "name": "闽东日报",
-            "url": "https://szb.ndpic.cn/"
+            "url": "http://szb.ndpic.cn/"
           },
           {
             "name": "莆田晚报",
-            "url": "https://www.ptwbs.net/"
+            "url": "http://www.ptwbs.net/"
           },
           {
             "name": "晋江经济报",
-            "url": "https://www.jjjjb.com.cn/"
+            "url": "http://www.jjjjb.com.cn/"
           }
         ]
       },
@@ -959,7 +959,7 @@
         "papers": [
           {
             "name": "江西日报",
-            "url": "https://epaper.jxxw.com.cn/"
+            "url": "http://epaper.jxxw.com.cn/"
           },
           {
             "name": "新法制报",
@@ -967,23 +967,23 @@
           },
           {
             "name": "九江日报",
-            "url": "https://www.jjxw.cn/"
+            "url": "http://www.jjxw.cn/"
           },
           {
             "name": "南昌日报",
-            "url": "https://www.ncrbw.cn/"
+            "url": "http://www.ncrbw.cn/"
           },
           {
             "name": "赣南日报",
-            "url": "https://www.gndaily.com/"
+            "url": "http://www.gndaily.com/"
           },
           {
             "name": "上饶晚报",
-            "url": "https://paper.srxww.com/srwb/"
+            "url": "http://paper.srxww.com/srwb/"
           },
           {
             "name": "抚州日报",
-            "url": "https://ipaper.zgfznews.com/"
+            "url": "http://ipaper.zgfznews.com/"
           },
           {
             "name": "鹰潭日报",
@@ -991,15 +991,15 @@
           },
           {
             "name": "新余日报",
-            "url": "https://www.newsxy.com/paper/"
+            "url": "http://www.newsxy.com/paper/"
           },
           {
             "name": "井冈山报",
-            "url": "https://www.jgsdaily.com"
+            "url": "http://www.jgsdaily.com"
           },
           {
             "name": "景德镇日报",
-            "url": "https://www.jdz-news.com.cn/"
+            "url": "http://www.jdz-news.com.cn/"
           },
           {
             "name": "萍乡日报",
@@ -1016,7 +1016,7 @@
         "papers": [
           {
             "name": "济南日报",
-            "url": "https://jnrb.e23.cn/"
+            "url": "http://jnrb.e23.cn/"
           },
           {
             "name": "齐鲁晚报",
@@ -1024,7 +1024,7 @@
           },
           {
             "name": "枣庄日报",
-            "url": "https://www.zzrbw.com/zzrbPaper/PC/layout/"
+            "url": "http://www.zzrbw.com/zzrbPaper/PC/layout/"
           },
           {
             "name": "青岛日报",
@@ -1040,11 +1040,11 @@
           },
           {
             "name": "滕州日报",
-            "url": "https://www.tzdaily.com.cn/"
+            "url": "http://www.tzdaily.com.cn/"
           },
           {
             "name": "荷泽日报",
-            "url": "https://epaper.hezeribao.com/"
+            "url": "http://epaper.hezeribao.com/"
           },
           {
             "name": "沂蒙晚报",
@@ -1052,7 +1052,7 @@
           },
           {
             "name": "济宁日报",
-            "url": "https://www.jn001.com/"
+            "url": "http://www.jn001.com/"
           },
           {
             "name": "临沂日报",
@@ -1060,11 +1060,11 @@
           },
           {
             "name": "淄博日报",
-            "url": "https://paper.zbnews.net/zbrb/"
+            "url": "http://paper.zbnews.net/zbrb/"
           },
           {
             "name": "东营日报",
-            "url": "https://www.dongyingnews.cn/"
+            "url": "http://www.dongyingnews.cn/"
           },
           {
             "name": "威海日报",
@@ -1072,11 +1072,11 @@
           },
           {
             "name": "潍坊日报",
-            "url": "https://wfrb.wfnews.com.cn/"
+            "url": "http://wfrb.wfnews.com.cn/"
           },
           {
             "name": "菏泽日报",
-            "url": "https://www.heze.cn/"
+            "url": "http://www.heze.cn/"
           },
           {
             "name": "泰安日报",
@@ -1084,11 +1084,11 @@
           },
           {
             "name": "日照日报",
-            "url": "https://epaper.rznews.cn/"
+            "url": "http://epaper.rznews.cn/"
           },
           {
             "name": "聊城日报",
-            "url": "https://lcrb.lcxw.cn/"
+            "url": "http://lcrb.lcxw.cn/"
           }
         ]
       },
@@ -1097,7 +1097,7 @@
         "papers": [
           {
             "name": "河南日报",
-            "url": "https://newpaper.dahe.cn/hnrb/"
+            "url": "http://newpaper.dahe.cn/hnrb/"
           },
           {
             "name": "三门峡日报",
@@ -1105,15 +1105,15 @@
           },
           {
             "name": "河南商报",
-            "url": "https://newpaper.dahe.cn/hnsb/"
+            "url": "http://newpaper.dahe.cn/hnsb/"
           },
           {
             "name": "新乡日报",
-            "url": "https://rb.xxrb.com.cn/"
+            "url": "http://rb.xxrb.com.cn/"
           },
           {
             "name": "焦作日报",
-            "url": "https://epaper.jzrb.com/"
+            "url": "http://epaper.jzrb.com/"
           },
           {
             "name": "鹤壁日报",
@@ -1121,31 +1121,31 @@
           },
           {
             "name": "许昌日报",
-            "url": "https://www.21xc.com/"
+            "url": "http://www.21xc.com/"
           },
           {
             "name": "周口日报",
-            "url": "https://www.zhld.com/"
+            "url": "http://www.zhld.com/"
           },
           {
             "name": "平顶山日报",
-            "url": "https://epaper.pdsxww.com/pdsrb/"
+            "url": "http://epaper.pdsxww.com/pdsrb/"
           },
           {
             "name": "漯河日报",
-            "url": "https://www.lhrb.com.cn/"
+            "url": "http://www.lhrb.com.cn/"
           },
           {
             "name": "洛阳日报",
-            "url": "https://lyrb.lyd.com.cn/"
+            "url": "http://lyrb.lyd.com.cn/"
           },
           {
             "name": "南阳日报",
-            "url": "https://epaper.01ny.cn/"
+            "url": "http://epaper.01ny.cn/"
           },
           {
             "name": "济源日报",
-            "url": "https://www.jyrb.cn/"
+            "url": "http://www.jyrb.cn/"
           },
           {
             "name": "安阳日报",
@@ -1161,11 +1161,11 @@
           },
           {
             "name": "平原晚报",
-            "url": "https://wb.xxrb.com.cn/"
+            "url": "http://wb.xxrb.com.cn/"
           },
           {
             "name": "商丘日报",
-            "url": "https://www.sqrb.com.cn/"
+            "url": "http://www.sqrb.com.cn/"
           },
           {
             "name": "汴梁晚报",
@@ -1173,7 +1173,7 @@
           },
           {
             "name": "驻马店日报",
-            "url": "https://zmdrb.zmdnews.cn/"
+            "url": "http://zmdrb.zmdnews.cn/"
           }
         ]
       },
@@ -1182,11 +1182,11 @@
         "papers": [
           {
             "name": "长江日报",
-            "url": "https://cjrb.cjn.cn/"
+            "url": "http://cjrb.cjn.cn/"
           },
           {
             "name": "武汉晚报",
-            "url": "https://whwb.cjn.cn/"
+            "url": "http://whwb.cjn.cn/"
           },
           {
             "name": "湖北日报",
@@ -1198,27 +1198,27 @@
           },
           {
             "name": "荆门日报",
-            "url": "https://paper.jmnews.cn/"
+            "url": "http://paper.jmnews.cn/"
           },
           {
             "name": "三峡日报",
-            "url": "https://epaper.cn3x.com.cn/sxrb/column/"
+            "url": "http://epaper.cn3x.com.cn/sxrb/column/"
           },
           {
             "name": "咸宁日报",
-            "url": "https://www.xnnews.com.cn/"
+            "url": "http://www.xnnews.com.cn/"
           },
           {
             "name": "随州日报",
-            "url": "https://szrb.sz-news.com.cn/"
+            "url": "http://szrb.sz-news.com.cn/"
           },
           {
             "name": "十堰日报",
-            "url": "https://syrb.10yan.com/"
+            "url": "http://syrb.10yan.com/"
           },
           {
             "name": "黄石日报",
-            "url": "https://epaper.6537777.com/hsrb/"
+            "url": "http://epaper.6537777.com/hsrb/"
           },
           {
             "name": "襄樊日报",
@@ -1230,15 +1230,15 @@
           },
           {
             "name": "鄂州日报",
-            "url": "https://www.eznews.cn/"
+            "url": "http://www.eznews.cn/"
           },
           {
             "name": "孝感日报",
-            "url": "https://szb.xgrb.cn:9999/epaper/xgrb/html/"
+            "url": "http://szb.xgrb.cn:9999/epaper/xgrb/html/"
           },
           {
             "name": "荆州日报",
-            "url": "https://news.cnchu.com/jzrb/"
+            "url": "http://news.cnchu.com/jzrb/"
           },
           {
             "name": "恩施日报",
@@ -1246,7 +1246,7 @@
           },
           {
             "name": "潜江日报",
-            "url": "https://qjrbs.com.cn/"
+            "url": "http://qjrbs.com.cn/"
           },
           {
             "name": "天门日报",
@@ -1263,11 +1263,11 @@
           },
           {
             "name": "三湘都市报",
-            "url": "https://epaper.voc.com.cn/sxdsb/"
+            "url": "http://epaper.voc.com.cn/sxdsb/"
           },
           {
             "name": "潇湘晨报",
-            "url": "https://epaper.xxcb.cn/"
+            "url": "http://epaper.xxcb.cn/"
           },
           {
             "name": "长沙晚报",
@@ -1283,7 +1283,7 @@
           },
           {
             "name": "邵阳日报",
-            "url": "https://szb.shaoyangnews.net/syrb/"
+            "url": "http://szb.shaoyangnews.net/syrb/"
           },
           {
             "name": "岳阳晚报",
@@ -1291,7 +1291,7 @@
           },
           {
             "name": "常德日报",
-            "url": "https://cdrb.cdyee.com/"
+            "url": "http://cdrb.cdyee.com/"
           },
           {
             "name": "益阳日报",
@@ -1307,7 +1307,7 @@
           },
           {
             "name": "怀化日报",
-            "url": "https://paper.0745news.cn/"
+            "url": "http://paper.0745news.cn/"
           },
           {
             "name": "岳阳日报",
@@ -1315,15 +1315,15 @@
           },
           {
             "name": "永州日报",
-            "url": "https://paper.0746news.com/"
+            "url": "http://paper.0746news.com/"
           },
           {
             "name": "张家界日报",
-            "url": "https://paper.zjjnews.cn:8081/"
+            "url": "http://paper.zjjnews.cn:8081/"
           },
           {
             "name": "湘潭日报",
-            "url": "https://xtrb.xtol.cn/"
+            "url": "http://xtrb.xtol.cn/"
           },
           {
             "name": "株州日报",
@@ -1340,7 +1340,7 @@
         "papers": [
           {
             "name": "南方日报",
-            "url": "https://epaper.southcn.com/"
+            "url": "http://epaper.southcn.com/"
           },
           {
             "name": "羊城晚报",
@@ -1348,7 +1348,7 @@
           },
           {
             "name": "惠州日报",
-            "url": "https://e.hznews.com/hzrb/pc/"
+            "url": "http://e.hznews.com/hzrb/pc/"
           },
           {
             "name": "广州日报",
@@ -1356,15 +1356,15 @@
           },
           {
             "name": "清远日报",
-            "url": "https://epaper.qyrb.com:7777/"
+            "url": "http://epaper.qyrb.com:7777/"
           },
           {
             "name": "汕头日报",
-            "url": "https://strb.dahuawang.com/"
+            "url": "http://strb.dahuawang.com/"
           },
           {
             "name": "珠海特区报",
-            "url": "https://zhuhaidaily.hizh.cn/"
+            "url": "http://zhuhaidaily.hizh.cn/"
           },
           {
             "name": "茂名日报",
@@ -1376,7 +1376,7 @@
           },
           {
             "name": "深圳日报",
-            "url": "https://www.szdaily.com/"
+            "url": "http://www.szdaily.com/"
           },
           {
             "name": "东莞日报",
@@ -1384,11 +1384,11 @@
           },
           {
             "name": "汕尾日报",
-            "url": "https://epaper.shanweinews.net/"
+            "url": "http://epaper.shanweinews.net/"
           },
           {
             "name": "韶关日报",
-            "url": "https://sgrb.sgxw.cn/"
+            "url": "http://sgrb.sgxw.cn/"
           },
           {
             "name": "阳江日报",
@@ -1396,15 +1396,15 @@
           },
           {
             "name": "潮州日报",
-            "url": "https://www.chaozhoudaily.com/"
+            "url": "http://www.chaozhoudaily.com/"
           },
           {
             "name": "揭阳日报",
-            "url": "https://jyrb.jynews.net/"
+            "url": "http://jyrb.jynews.net/"
           },
           {
             "name": "西江日报",
-            "url": "https://appszb.xjrb.com/"
+            "url": "http://appszb.xjrb.com/"
           },
           {
             "name": "湛江日报",
@@ -1417,19 +1417,19 @@
         "papers": [
           {
             "name": "广西日报",
-            "url": "https://gxrb.gxnews.com.cn/"
+            "url": "http://gxrb.gxnews.com.cn/"
           },
           {
             "name": "桂林日报",
-            "url": "https://epaper.guilinlife.com/glrbpc/"
+            "url": "http://epaper.guilinlife.com/glrbpc/"
           },
           {
             "name": "南宁日报",
-            "url": "https://www.nnrb.com.cn/"
+            "url": "http://www.nnrb.com.cn/"
           },
           {
             "name": "防城港日报",
-            "url": "https://www.fcgsnews.com/szb/"
+            "url": "http://www.fcgsnews.com/szb/"
           },
           {
             "name": "钦州日报",
@@ -1437,7 +1437,7 @@
           },
           {
             "name": "梧州日报",
-            "url": "https://szb.wzljl.cn/"
+            "url": "http://szb.wzljl.cn/"
           },
           {
             "name": "玉林日报",
@@ -1445,23 +1445,23 @@
           },
           {
             "name": "柳州日报",
-            "url": "https://www.gxlznews.com/lzrb/"
+            "url": "http://www.gxlznews.com/lzrb/"
           },
           {
             "name": "南宁晚报",
-            "url": "https://www.nnwb.com/"
+            "url": "http://www.nnwb.com/"
           },
           {
             "name": "西江都市报",
-            "url": "https://szb.wzljl.cn/"
+            "url": "http://szb.wzljl.cn/"
           },
           {
             "name": "右江日报",
-            "url": "https://epaper.bsyjrb.com/"
+            "url": "http://epaper.bsyjrb.com/"
           },
           {
             "name": "今日龙胜",
-            "url": "https://www.jrlsb.net/"
+            "url": "http://www.jrlsb.net/"
           },
           {
             "name": "北海日报",
@@ -1469,19 +1469,19 @@
           },
           {
             "name": "广西法治日报",
-            "url": "https://gxfzrb.pagx.cn/"
+            "url": "http://gxfzrb.pagx.cn/"
           },
           {
             "name": "柳州晚报",
-            "url": "https://www.lzxinwenwang.com/"
+            "url": "http://www.lzxinwenwang.com/"
           },
           {
             "name": "贺州日报",
-            "url": "https://www.chhzm.com/"
+            "url": "http://www.chhzm.com/"
           },
           {
             "name": "贵港日报",
-            "url": "https://ggrb.ggnews.com.cn/"
+            "url": "http://ggrb.ggnews.com.cn/"
           },
           {
             "name": "来宾日报",
@@ -1494,7 +1494,7 @@
         "papers": [
           {
             "name": "法制时报",
-            "url": "https://fzsb.hinews.cn/"
+            "url": "http://fzsb.hinews.cn/"
           },
           {
             "name": "三亚日报",
@@ -1502,15 +1502,15 @@
           },
           {
             "name": "海南农垦报",
-            "url": "https://epaper.hnnkb.cn/hnnkb/html/2022-06/03/node_1.htm?v=1"
+            "url": "http://epaper.hnnkb.cn/hnnkb/html/2022-06/03/node_1.htm?v=1"
           },
           {
             "name": "海南日报",
-            "url": "https://news.hndaily.cn/"
+            "url": "http://news.hndaily.cn/"
           },
           {
             "name": "南国都市报",
-            "url": "https://ngdsb.hinews.cn/"
+            "url": "http://ngdsb.hinews.cn/"
           },
           {
             "name": "海南特区报",
@@ -1518,15 +1518,15 @@
           },
           {
             "name": "证券导报",
-            "url": "https://zqdb.hinews.cn/"
+            "url": "http://zqdb.hinews.cn/"
           },
           {
             "name": "海口日报",
-            "url": "https://szb.hkwb.net"
+            "url": "http://szb.hkwb.net"
           },
           {
             "name": "今日儋州",
-            "url": "https://jrdz.danzhoudaily.com/"
+            "url": "http://jrdz.danzhoudaily.com/"
           }
         ]
       },
@@ -1539,23 +1539,23 @@
           },
           {
             "name": "成都日报",
-            "url": "https://www.cdrb.com.cn/"
+            "url": "http://www.cdrb.com.cn/"
           },
           {
             "name": "巴中日报",
-            "url": "https://www.bznews.org/"
+            "url": "http://www.bznews.org/"
           },
           {
             "name": "乐山日报",
-            "url": "https://rb.lsrbs.net/"
+            "url": "http://rb.lsrbs.net/"
           },
           {
             "name": "广安日报",
-            "url": "https://www.gazx.org/"
+            "url": "http://www.gazx.org/"
           },
           {
             "name": "遂宁日报",
-            "url": "https://snrb.snxw.com/"
+            "url": "http://snrb.snxw.com/"
           },
           {
             "name": "德阳日报",
@@ -1563,11 +1563,11 @@
           },
           {
             "name": "绵阳日报",
-            "url": "https://epaper.myrb.net/"
+            "url": "http://epaper.myrb.net/"
           },
           {
             "name": "眉山日报",
-            "url": "https://szb.mshw.net/"
+            "url": "http://szb.mshw.net/"
           },
           {
             "name": "凉山日报",
@@ -1575,35 +1575,35 @@
           },
           {
             "name": "泸州日报",
-            "url": "https://lzby.lzep.cn:8088/lzrb/"
+            "url": "http://lzby.lzep.cn:8088/lzrb/"
           },
           {
             "name": "宜宾日报",
-            "url": "https://www.ybxww.com/"
+            "url": "http://www.ybxww.com/"
           },
           {
             "name": "攀枝花日报",
-            "url": "https://pzhrb.pzhnews.org/"
+            "url": "http://pzhrb.pzhnews.org/"
           },
           {
             "name": "甘孜日报",
-            "url": "https://paper.kbcmw.com/"
+            "url": "http://paper.kbcmw.com/"
           },
           {
             "name": "资阳日报",
-            "url": "https://paper.zyrb.com.cn/"
+            "url": "http://paper.zyrb.com.cn/"
           },
           {
             "name": "达州日报",
-            "url": "https://www.dzrbs.com/"
+            "url": "http://www.dzrbs.com/"
           },
           {
             "name": "南充日报",
-            "url": "https://www.cnncw.cn/"
+            "url": "http://www.cnncw.cn/"
           },
           {
             "name": "内江日报",
-            "url": "https://epaper.scnjnews.com/"
+            "url": "http://epaper.scnjnews.com/"
           }
         ]
       },
@@ -1612,11 +1612,11 @@
         "papers": [
           {
             "name": "贵州日报",
-            "url": "https://szb.gzrbs.com.cn/"
+            "url": "http://szb.gzrbs.com.cn/"
           },
           {
             "name": "贵州都市报",
-            "url": "https://gzdsb.ddcpc.cn/"
+            "url": "http://gzdsb.ddcpc.cn/"
           },
           {
             "name": "黔西南日报",
@@ -1624,7 +1624,7 @@
           },
           {
             "name": "六盘水日报",
-            "url": "https://epaper.lpswz.com/pc/"
+            "url": "http://epaper.lpswz.com/pc/"
           },
           {
             "name": "遵义日报",
@@ -1636,11 +1636,11 @@
           },
           {
             "name": "黔东南日报",
-            "url": "https://dzb.qdnrbs.cn/"
+            "url": "http://dzb.qdnrbs.cn/"
           },
           {
             "name": "毕节日报",
-            "url": "https://rb.bjsyqw.com/"
+            "url": "http://rb.bjsyqw.com/"
           },
           {
             "name": "遵义晚报",
@@ -1648,19 +1648,19 @@
           },
           {
             "name": "安顺日报",
-            "url": "https://www.asrbs.net/"
+            "url": "http://www.asrbs.net/"
           },
           {
             "name": "黔中早报",
-            "url": "https://www.asrbs.net/"
+            "url": "http://www.asrbs.net/"
           },
           {
             "name": "铜仁日报",
-            "url": "https://szb.trxw.gov.cn/"
+            "url": "http://szb.trxw.gov.cn/"
           },
           {
             "name": "黔南日报",
-            "url": "https://cnepaper.qnmeitiyun.com/"
+            "url": "http://cnepaper.qnmeitiyun.com/"
           }
         ]
       },
@@ -1673,31 +1673,31 @@
           },
           {
             "name": "春城晚报",
-            "url": "https://ccwb.yunnan.cn/"
+            "url": "http://ccwb.yunnan.cn/"
           },
           {
             "name": "玉溪日报",
-            "url": "https://www.yxdaily.com/"
+            "url": "http://www.yxdaily.com/"
           },
           {
             "name": "曲靖日报",
-            "url": "https://epaper.qjrb.cn/"
+            "url": "http://epaper.qjrb.cn/"
           },
           {
             "name": "保山日报",
-            "url": "https://paper.baoshandaily.com/"
+            "url": "http://paper.baoshandaily.com/"
           },
           {
             "name": "文山日报",
-            "url": "https://wsnews.com.cn/"
+            "url": "http://wsnews.com.cn/"
           },
           {
             "name": "云南经济日报",
-            "url": "https://jjrbpaper.yunnan.cn/"
+            "url": "http://jjrbpaper.yunnan.cn/"
           },
           {
             "name": "红河日报",
-            "url": "https://epaper.hh.cn/"
+            "url": "http://epaper.hh.cn/"
           },
           {
             "name": "大理日报",
@@ -1705,31 +1705,31 @@
           },
           {
             "name": "昆明日报",
-            "url": "https://daily.clzg.cn/"
+            "url": "http://daily.clzg.cn/"
           },
           {
             "name": "临沧日报",
-            "url": "https://www.lcdaily.cn/"
+            "url": "http://www.lcdaily.cn/"
           },
           {
             "name": "都市时报",
-            "url": "https://times.clzg.cn/"
+            "url": "http://times.clzg.cn/"
           },
           {
             "name": "普洱日报",
-            "url": "https://www.puernews.com/perb/"
+            "url": "http://www.puernews.com/perb/"
           },
           {
             "name": "迪庆日报",
-            "url": "https://www.xgll.com.cn/epaper/pc/"
+            "url": "http://www.xgll.com.cn/epaper/pc/"
           },
           {
             "name": "丽江日报",
-            "url": "https://szb.ljrbw.com/"
+            "url": "http://szb.ljrbw.com/"
           },
           {
             "name": "西双版纳报",
-            "url": "https://epaper.bndaily.com/"
+            "url": "http://epaper.bndaily.com/"
           },
           {
             "name": "怒江日报",
@@ -1742,19 +1742,19 @@
         "papers": [
           {
             "name": "西藏日报",
-            "url": "https://epaper.chinatibetnews.com/xzrb/"
+            "url": "http://epaper.chinatibetnews.com/xzrb/"
           },
           {
             "name": "拉萨晚报",
-            "url": "https://www.lasaribao.com/lswb/"
+            "url": "http://www.lasaribao.com/lswb/"
           },
           {
             "name": "昌都报",
-            "url": "https://www.cdbao.cn/"
+            "url": "http://www.cdbao.cn/"
           },
           {
             "name": "西藏商报",
-            "url": "https://epaper.chinatibetnews.com/xzsb/"
+            "url": "http://epaper.chinatibetnews.com/xzsb/"
           },
           {
             "name": "山南报",
@@ -1762,11 +1762,11 @@
           },
           {
             "name": "林芝报",
-            "url": "https://www.linzhinews.com/"
+            "url": "http://www.linzhinews.com/"
           },
           {
             "name": "西藏法制报",
-            "url": "https://e.xzxw.com/fzb/"
+            "url": "http://e.xzxw.com/fzb/"
           }
         ]
       },
@@ -1779,15 +1779,15 @@
           },
           {
             "name": "西安日报",
-            "url": "https://epaper.xiancn.com/"
+            "url": "http://epaper.xiancn.com/"
           },
           {
             "name": "西安晚报",
-            "url": "https://epaper.xiancn.com/"
+            "url": "http://epaper.xiancn.com/"
           },
           {
             "name": "宝鸡日报",
-            "url": "https://www.cn0917.com/"
+            "url": "http://www.cn0917.com/"
           },
           {
             "name": "三秦都市报",
@@ -1799,27 +1799,27 @@
           },
           {
             "name": "陕西工人报",
-            "url": "https://www.sxworker.com/"
+            "url": "http://www.sxworker.com/"
           },
           {
             "name": "商洛日报",
-            "url": "https://www.slrbs.com/"
+            "url": "http://www.slrbs.com/"
           },
           {
             "name": "榆林日报",
-            "url": "https://szb.ylrb.com/"
+            "url": "http://szb.ylrb.com/"
           },
           {
             "name": "渭南日报",
-            "url": "https://szb.jsjnews.cn/"
+            "url": "http://szb.jsjnews.cn/"
           },
           {
             "name": "安康日报",
-            "url": "https://www.akxw.cn/"
+            "url": "http://www.akxw.cn/"
           },
           {
             "name": "中联西北院报",
-            "url": "https://paper.hg029.com.cn:8080/"
+            "url": "http://paper.hg029.com.cn:8080/"
           },
           {
             "name": "延安日报",
@@ -1827,15 +1827,15 @@
           },
           {
             "name": "咸阳日报",
-            "url": "https://epaper.sxxynews.com/"
+            "url": "http://epaper.sxxynews.com/"
           },
           {
             "name": "西安商报",
-            "url": "https://www.xasb168.com/"
+            "url": "http://www.xasb168.com/"
           },
           {
             "name": "汉中日报",
-            "url": "https://www.hanzhongnews.cn/"
+            "url": "http://www.hanzhongnews.cn/"
           },
           {
             "name": "铜川日报",
@@ -1856,55 +1856,55 @@
           },
           {
             "name": "张掖日报",
-            "url": "https://www.gs-zy.com/"
+            "url": "http://www.gs-zy.com/"
           },
           {
             "name": "金昌日报",
-            "url": "https://www.jinchangnews.cn/"
+            "url": "http://www.jinchangnews.cn/"
           },
           {
             "name": "天水日报",
-            "url": "https://www.tsrb.com.cn/"
+            "url": "http://www.tsrb.com.cn/"
           },
           {
             "name": "甘南日报",
-            "url": "https://61.178.198.232:91/epaper/"
+            "url": "http://61.178.198.232:91/epaper/"
           },
           {
             "name": "兰州日报",
-            "url": "https://www.lzbs.com.cn/"
+            "url": "http://www.lzbs.com.cn/"
           },
           {
             "name": "兰州晚报",
-            "url": "https://www.lzbs.com.cn/"
+            "url": "http://www.lzbs.com.cn/"
           },
           {
             "name": "陇南日报",
-            "url": "https://www.gansudaily.com.cn/"
+            "url": "http://www.gansudaily.com.cn/"
           },
           {
             "name": "天水晚报",
-            "url": "https://www.tsrb.com.cn/"
+            "url": "http://www.tsrb.com.cn/"
           },
           {
             "name": "临夏民族日报",
-            "url": "https://szb.chinalxnet.com/"
+            "url": "http://szb.chinalxnet.com/"
           },
           {
             "name": "嘉峪关日报",
-            "url": "https://jygrb.jygxw.com/"
+            "url": "http://jygrb.jygxw.com/"
           },
           {
             "name": "定西日报",
-            "url": "https://dxs-site.gansujsl.com/"
+            "url": "http://dxs-site.gansujsl.com/"
           },
           {
             "name": "平凉日报",
-            "url": "https://szb.plxww.com:8888/epaper/"
+            "url": "http://szb.plxww.com:8888/epaper/"
           },
           {
             "name": "酒泉日报",
-            "url": "https://paper.chinajiuquan.com/"
+            "url": "http://paper.chinajiuquan.com/"
           }
         ]
       },
@@ -1913,11 +1913,11 @@
         "papers": [
           {
             "name": "青海日报",
-            "url": "https://epaper.tibet3.com/qhrb/"
+            "url": "http://epaper.tibet3.com/qhrb/"
           },
           {
             "name": "青海科技报",
-            "url": "https://www.xepaper.com/qhkjb/"
+            "url": "http://www.xepaper.com/qhkjb/"
           },
           {
             "name": "青海法制报",
@@ -1925,11 +1925,11 @@
           },
           {
             "name": "海东日报",
-            "url": "https://www.dbcsq.com/"
+            "url": "http://www.dbcsq.com/"
           },
           {
             "name": "西宁晚报",
-            "url": "https://www.xnwbw.com/"
+            "url": "http://www.xnwbw.com/"
           },
           {
             "name": "西海都市报",
@@ -1937,15 +1937,15 @@
           },
           {
             "name": "黄南报",
-            "url": "https://www.huangnan.gov.cn/"
+            "url": "http://www.huangnan.gov.cn/"
           },
           {
             "name": "海南报",
-            "url": "https://chinese.hnznews.com/"
+            "url": "http://chinese.hnznews.com/"
           },
           {
             "name": "柴达木日报",
-            "url": "https://www.cdmrb.com.cn/"
+            "url": "http://www.cdmrb.com.cn/"
           }
         ]
       },
@@ -1970,7 +1970,7 @@
           },
           {
             "name": "中卫日报",
-            "url": "https://www.nxzwnews.net/"
+            "url": "http://www.nxzwnews.net/"
           },
           {
             "name": "吴忠日报",
@@ -1982,7 +1982,7 @@
           },
           {
             "name": "石嘴山日报",
-            "url": "https://www.szsnews.com/"
+            "url": "http://www.szsnews.com/"
           },
           {
             "name": "固原日报",
@@ -2011,11 +2011,11 @@
           },
           {
             "name": "喀什日报",
-            "url": "https://www.zgkashi.com/"
+            "url": "http://www.zgkashi.com/"
           },
           {
             "name": "乌鲁木齐晚报",
-            "url": "https://wlmqszb.womob.cn/"
+            "url": "http://wlmqszb.womob.cn/"
           },
           {
             "name": "阿克苏日报",
@@ -2023,43 +2023,43 @@
           },
           {
             "name": "兵团日报",
-            "url": "https://epaper.bingtuannet.com/"
+            "url": "http://epaper.bingtuannet.com/"
           },
           {
             "name": "昌吉日报",
-            "url": "https://www.cjxww.cn/"
+            "url": "http://www.cjxww.cn/"
           },
           {
             "name": "塔城日报",
-            "url": "https://szb.tcxw.cc/"
+            "url": "http://szb.tcxw.cc/"
           },
           {
             "name": "博尔塔拉报",
-            "url": "https://www.boznews.cn/"
+            "url": "http://www.boznews.cn/"
           },
           {
             "name": "吐鲁番日报",
-            "url": "https://epaper.tlfw.net/"
+            "url": "http://epaper.tlfw.net/"
           },
           {
             "name": "生活晚报",
-            "url": "https://shwb.bingtuannet.com/"
+            "url": "http://shwb.bingtuannet.com/"
           },
           {
             "name": "克拉玛依日报",
-            "url": "https://www.kelamayi.com.cn/"
+            "url": "http://www.kelamayi.com.cn/"
           },
           {
             "name": "新疆石油报",
-            "url": "https://epaper.kelamayi.com.cn/"
+            "url": "http://epaper.kelamayi.com.cn/"
           },
           {
             "name": "巴音部楞日报",
-            "url": "https://rb.loulannews.com/"
+            "url": "http://rb.loulannews.com/"
           },
           {
             "name": "石河子日报",
-            "url": "https://bz.shznews.com:8001/szb/"
+            "url": "http://bz.shznews.com:8001/szb/"
           }
         ]
       },
@@ -2076,7 +2076,7 @@
           },
           {
             "name": "马祖日报",
-            "url": "https://www.matsu-news.gov.tw/"
+            "url": "http://www.matsu-news.gov.tw/"
           },
           {
             "name": "电子时报",
@@ -2109,7 +2109,7 @@
         "papers": [
           {
             "name": "香港商报",
-            "url": "https://ebook.hkcd.com/"
+            "url": "http://ebook.hkcd.com/"
           },
           {
             "name": "南华早报",
@@ -2117,15 +2117,15 @@
           },
           {
             "name": "大公报",
-            "url": "https://www.takungpao.com.hk/"
+            "url": "http://www.takungpao.com.hk/"
           },
           {
             "name": "星岛日报",
-            "url": "https://www.stnn.cc/"
+            "url": "http://www.stnn.cc/"
           },
           {
             "name": "香港法治报",
-            "url": "https://www.newspaperhk.com/"
+            "url": "http://www.newspaperhk.com/"
           },
           {
             "name": "香港经济日报",
@@ -2146,23 +2146,23 @@
         "papers": [
           {
             "name": "澳门日报",
-            "url": "https://www.macaodaily.com/"
+            "url": "http://www.macaodaily.com/"
           },
           {
             "name": "华侨报",
-            "url": "https://www.jornalvakio.com/"
+            "url": "http://www.jornalvakio.com/"
           },
           {
             "name": "新华澳报",
-            "url": "https://www.waou.com.mo/"
+            "url": "http://www.waou.com.mo/"
           },
           {
             "name": "澳门时报",
-            "url": "https://www.jornalsisi.com/"
+            "url": "http://www.jornalsisi.com/"
           },
           {
             "name": "澳门大众报",
-            "url": "https://www.taichungdaily.com/"
+            "url": "http://www.taichungdaily.com/"
           }
         ]
       }
@@ -2173,7 +2173,7 @@
         "papers": [
           {
             "name": "悉尼晨报",
-            "url": "https://www.smh.com.au/"
+            "url": "http://www.smh.com.au/"
           },
           {
             "name": "澳广新闻网",
@@ -2207,11 +2207,11 @@
         "papers": [
           {
             "name": "费加罗报",
-            "url": "https://www.lefigaro.fr/"
+            "url": "http://www.lefigaro.fr/"
           },
           {
             "name": "欧洲时报",
-            "url": "https://www.oushinet.com/"
+            "url": "http://www.oushinet.com/"
           },
           {
             "name": "经济金融日报",
@@ -2231,11 +2231,11 @@
           },
           {
             "name": "法国世界报",
-            "url": "https://mondediplo.com/"
+            "url": "http://mondediplo.com/"
           },
           {
             "name": "法新社",
-            "url": "https://www.afp.com/"
+            "url": "http://www.afp.com/"
           }
         ]
       },
@@ -2248,19 +2248,19 @@
           },
           {
             "name": "ELLE",
-            "url": "https://www.elle.de/"
+            "url": "http://www.elle.de/"
           },
           {
             "name": "德国青年世界报",
-            "url": "https://www.jungewelt.ipn.de/"
+            "url": "http://www.jungewelt.ipn.de/"
           },
           {
             "name": "莱因邮报",
-            "url": "https://rp-online.de/"
+            "url": "http://rp-online.de/"
           },
           {
             "name": "德国汉堡摩根邮报",
-            "url": "https://www.mopo.de/"
+            "url": "http://www.mopo.de/"
           },
           {
             "name": "南德日报",
@@ -2294,7 +2294,7 @@
         "papers": [
           {
             "name": "Waterford Today",
-            "url": "https://www.waterford-today.ie/"
+            "url": "http://www.waterford-today.ie/"
           },
           {
             "name": "爱尔兰时报",
@@ -2306,15 +2306,15 @@
           },
           {
             "name": "民族主义者",
-            "url": "https://www.carlow-nationalist.ie/"
+            "url": "http://www.carlow-nationalist.ie/"
           },
           {
             "name": "爱尔兰之声周报",
-            "url": "https://irishvoice.com/"
+            "url": "http://irishvoice.com/"
           },
           {
             "name": "Irish Echo",
-            "url": "https://irishecho.com/"
+            "url": "http://irishecho.com/"
           },
           {
             "name": "共和国",
@@ -2322,23 +2322,23 @@
           },
           {
             "name": "蒙斯特快报",
-            "url": "https://www.munster-express.ie/"
+            "url": "http://www.munster-express.ie/"
           },
           {
             "name": "利墨里克地方报",
-            "url": "https://www.limerickleader.ie/"
+            "url": "http://www.limerickleader.ie/"
           },
           {
             "name": "Skerries News",
-            "url": "https://www.skerriesnews.ie/"
+            "url": "http://www.skerriesnews.ie/"
           },
           {
             "name": "今日沃特福德",
-            "url": "https://www.waterford-today.ie/"
+            "url": "http://www.waterford-today.ie/"
           },
           {
             "name": "Clare Champion, The",
-            "url": "https://www.clarechampion.ie/"
+            "url": "http://www.clarechampion.ie/"
           }
         ]
       },
@@ -2351,7 +2351,7 @@
           },
           {
             "name": "意大利金融日报",
-            "url": "https://www.milanofinanza.it/"
+            "url": "http://www.milanofinanza.it/"
           }
         ]
       },
@@ -2368,11 +2368,11 @@
           },
           {
             "name": "华风新闻",
-            "url": "https://www.toka-web.co.jp/"
+            "url": "http://www.toka-web.co.jp/"
           },
           {
             "name": "每日新闻",
-            "url": "https://www.mainichi.co.jp"
+            "url": "http://www.mainichi.co.jp"
           },
           {
             "name": "Yomiuri读卖新闻",
@@ -2380,11 +2380,11 @@
           },
           {
             "name": "日本经济新闻",
-            "url": "https://www.nikkei.co.jp/"
+            "url": "http://www.nikkei.co.jp/"
           },
           {
             "name": "日本新华侨报",
-            "url": "https://www.jnocnews.co.jp/"
+            "url": "http://www.jnocnews.co.jp/"
           }
         ]
       },
@@ -2393,7 +2393,7 @@
         "papers": [
           {
             "name": "国际时报",
-            "url": "https://www.intimes.com.my/"
+            "url": "http://www.intimes.com.my/"
           },
           {
             "name": "联合日报",
@@ -2401,11 +2401,11 @@
           },
           {
             "name": "星报",
-            "url": "https://thestar.com.my/"
+            "url": "http://thestar.com.my/"
           },
           {
             "name": "华侨日报",
-            "url": "https://www.ocdn.com.my/"
+            "url": "http://www.ocdn.com.my/"
           }
         ]
       },
@@ -2414,7 +2414,7 @@
         "papers": [
           {
             "name": "金凤凰",
-            "url": "https://www.mmgpmedia.com"
+            "url": "http://www.mmgpmedia.com"
           }
         ]
       },
@@ -2427,11 +2427,11 @@
           },
           {
             "name": "新西兰先驱报",
-            "url": "https://www.nzherald.co.nz/"
+            "url": "http://www.nzherald.co.nz/"
           },
           {
             "name": "奥塔哥每日时报",
-            "url": "https://www.odt.co.nz/"
+            "url": "http://www.odt.co.nz/"
           }
         ]
       },
@@ -2452,11 +2452,11 @@
           },
           {
             "name": "菲律宾快报",
-            "url": "https://www.pilipino-express.com/"
+            "url": "http://www.pilipino-express.com/"
           },
           {
             "name": "马尼拉时报",
-            "url": "https://www.manilatimes.net/"
+            "url": "http://www.manilatimes.net/"
           }
         ]
       },
@@ -2478,7 +2478,7 @@
           },
           {
             "name": "圣比得堡时报",
-            "url": "https://www.times.spb.ru/"
+            "url": "http://www.times.spb.ru/"
           },
           {
             "name": "共青团真理报",
@@ -2486,7 +2486,7 @@
           },
           {
             "name": "Gazeta.ru",
-            "url": "https://www.gazeta.ru/"
+            "url": "http://www.gazeta.ru/"
           },
           {
             "name": "俄罗斯日报",
@@ -2507,7 +2507,7 @@
           },
           {
             "name": "新加坡商业时报",
-            "url": "https://www.businesstimes.com.sg/"
+            "url": "http://www.businesstimes.com.sg/"
           }
         ]
       },
@@ -2525,7 +2525,7 @@
         "papers": [
           {
             "name": "洛杉矶时报",
-            "url": "https://www.latimes.com"
+            "url": "http://www.latimes.com"
           },
           {
             "name": "今日美国",
@@ -2537,7 +2537,7 @@
           },
           {
             "name": "先驱日报",
-            "url": "https://news.hjnews.com/"
+            "url": "http://news.hjnews.com/"
           },
           {
             "name": "国际先驱论坛报",
@@ -2545,7 +2545,7 @@
           },
           {
             "name": "华盛顿新闻报",
-            "url": "https://www.newsday.com"
+            "url": "http://www.newsday.com"
           },
           {
             "name": "纽约邮报",
@@ -2553,11 +2553,11 @@
           },
           {
             "name": "华盛顿每日新闻",
-            "url": "https://www.thewashingtondailynews.com/"
+            "url": "http://www.thewashingtondailynews.com/"
           },
           {
             "name": "波士顿环球报",
-            "url": "https://www.boston.com"
+            "url": "http://www.boston.com"
           },
           {
             "name": "波士顿先驱报",
@@ -2610,7 +2610,7 @@
           },
           {
             "name": "英国每日电讯",
-            "url": "https://www.telegraph.co.uk/"
+            "url": "http://www.telegraph.co.uk/"
           },
           {
             "name": "苏格兰人报",
@@ -2618,7 +2618,7 @@
           },
           {
             "name": "贝尔法斯特电讯报",
-            "url": "https://www.belfasttelegraph.co.uk/"
+            "url": "http://www.belfasttelegraph.co.uk/"
           },
           {
             "name": "布里斯托尔晚报",
@@ -2626,7 +2626,7 @@
           },
           {
             "name": "爱尔兰新闻报",
-            "url": "https://www.irishnews.com/"
+            "url": "http://www.irishnews.com/"
           },
           {
             "name": "巴恩斯利纪事报",
